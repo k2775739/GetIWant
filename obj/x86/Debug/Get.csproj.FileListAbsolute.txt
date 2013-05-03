@@ -1,0 +1,7 @@
+C:\Users\Steven Kong\Documents\GitHub\GetIWant\GetIWant\bin\Debug\Get.exe
+C:\Users\Steven Kong\Documents\GitHub\GetIWant\GetIWant\bin\Debug\Get.pdb
+C:\Users\Steven Kong\Documents\GitHub\GetIWant\GetIWant\obj\x86\Debug\Get.csprojResolveAssemblyReference.cache
+C:\Users\Steven Kong\Documents\GitHub\GetIWant\GetIWant\obj\x86\Debug\Logcq.MainForm.resources
+C:\Users\Steven Kong\Documents\GitHub\GetIWant\GetIWant\obj\x86\Debug\Get.csproj.GenerateResource.Cache
+C:\Users\Steven Kong\Documents\GitHub\GetIWant\GetIWant\obj\x86\Debug\Get.exe
+C:\Users\Steven Kong\Documents\GitHub\GetIWant\GetIWant\obj\x86\Debug\Get.pdb

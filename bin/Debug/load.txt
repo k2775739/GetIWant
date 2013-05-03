@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>	<title>重庆掌上移动营业厅</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Cache-Control" content="no-cache" />
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"/>
+	<meta name="MobileOptimized" content="240" />
+	<meta name="Keywords" content="重庆移动,掌上营业厅,网上缴费，业务受理"/>
+	<meta name="Description" content="重庆移动,掌上营业厅,营业厅,网上缴费，业务受理"/>
+	<meta name="robots" content="index, follow"/>
+	<meta name="googlebot" content="index, follow"/>
+	<link type="text/css" rel="stylesheet" href="../CHOQ/resource/xhtmlmp/style/base.css" />
+	<link type="text/css" rel="stylesheet" href="../CHOQ/resource/xhtmlmp/style/ui.css" />
+	<script type="text/javascript" src="../CHOQ/resource/public/js/lib/jquery-1.7.2.js" ></script>
+	<script type="text/javascript" src="../CHOQ/resource/public/js/jquery.photoslider.js"></script>
+	<script type="text/javascript" src="../CHOQ/resource/xhtmlmp/js/home.js"></script>
+	<script type="text/javascript" src="../CHOQ/resource/public/js/slider.js" ></script>
+	<script type="text/javascript" src="../CHOQ/resource/public/js/ajax.js" ></script>
+
+</head>
+<body>	<div class="container" style="margin: 0 auto;">
+			<div class="header">
+				<div class="logo">
+					<div class="pic"><img alt="重庆移动" src="../CHOQ/resource/xhtmlmp/images/logo.gif"/></div>
+				</div>
+			</div>
+			<div class="mainbody">	<div class="login">
+		<div class="clear"></div>
+		<div class="welcome">欢迎使用掌上营业厅，请先登录</div>
+		<div class="border" id="serviceOptions">
+			<div class="form" id="service">
+				<form action="app?service=page/Authorization&listener=doLogin" method="post">
+					<input type="hidden" name="loginType" value="service" />
+				<p style="font-weight:600;color:red;">未输入验证码或验证码输入错误！</p>					<table>
+						<tr><td><label for="telnum">手机号码：</label></td><td><input type="text" id="telnum" name="telnum" maxlength="11" /></td></tr>
+						<tr><td><label for="passwd">服务密码：</label></td><td><input type="password" id="passwd" name="passwd" maxlength="6"/></td></tr>
+						<tr><td><label for="randomcode">验证码：</label></td><td><input type="text" id="randomcode" name="randomcode" maxlength="4" style="width:60px;"/><img src="auth/img" alt="验证码" /></td></tr>
+						<tr><td colspan="2"><input type="submit" id="bLogin" name="bLogin" class="btn" value="登录"/><a style="margin-left:20px;" class="btn" href="app?service=page/RandomLogin&listener=initPage&return_url=">忘记密码</a></td></tr>
+					</table>
+				</form>
+			</div>
+		</div>
+	<div class="content">
+		<span>【温馨提示】</span><br />
+		<span> 1.设置为CMWAP接入点，即可免登录。<a  style="color: #548DD4;"  href="app?service=page/SetupXplain&listener=initPage">如何设置？</a></span><br />
+		<span> 2.请输入重庆移动手机号码及服务密码登录。</span><br />
+		<span> 3.如果您不记得服务密码，请点击忘记密码登录。</span><br />
+		<span> 4.输错密码会有短信提示下发至您的手机。</span>
+	</div>
+	</div>
+	</div>
+			<div class="footer">
+				<div class="copyright">
+					<p>京ICP备05002571|中国移动版权</p> 
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+</body>
+</html>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>	<title>重庆掌上移动营业厅</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Cache-Control" content="no-cache" />
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"/>
+	<meta name="MobileOptimized" content="240" />
+	<meta name="Keywords" content="重庆移动,掌上营业厅,网上缴费，业务受理"/>
+	<meta name="Description" content="重庆移动,掌上营业厅,营业厅,网上缴费，业务受理"/>
+	<meta name="robots" content="index, follow"/>
+	<meta name="googlebot" content="index, follow"/>
+	<link type="text/css" rel="stylesheet" href="../CHOQ/resource/xhtmlmp/style/base.css" />
+	<link type="text/css" rel="stylesheet" href="../CHOQ/resource/xhtmlmp/style/ui.css" />
+	<script type="text/javascript" src="../CHOQ/resource/public/js/lib/jquery-1.7.2.js" ></script>
+	<script type="text/javascript" src="../CHOQ/resource/public/js/jquery.photoslider.js"></script>
+	<script type="text/javascript" src="../CHOQ/resource/xhtmlmp/js/home.js"></script>
+	<script type="text/javascript" src="../CHOQ/resource/public/js/slider.js" ></script>
+	<script type="text/javascript" src="../CHOQ/resource/public/js/ajax.js" ></script>
+
+</head>
+<body>	<div class="container" style="margin: 0 auto;">
+			<div class="header">
+				<div class="logo">
+					<div class="pic"><img alt="重庆移动" src="../CHOQ/resource/xhtmlmp/images/logo.gif"/></div>
+				</div>
+			</div>
+			<div class="mainbody">	<div class="login">
+		<div class="clear"></div>
+		<div class="welcome">欢迎使用掌上营业厅，请先登录</div>
+		<div class="border" id="serviceOptions">
+			<div class="form" id="service">
+				<form action="app?service=page/Authorization&listener=doLogin" method="post">
+					<input type="hidden" name="loginType" value="service" />
+				<p style="font-weight:600;color:red;">未输入验证码或验证码输入错误！</p>					<table>
+						<tr><td><label for="telnum">手机号码：</label></td><td><input type="text" id="telnum" name="telnum" maxlength="11" /></td></tr>
+						<tr><td><label for="passwd">服务密码：</label></td><td><input type="password" id="passwd" name="passwd" maxlength="6"/></td></tr>
+						<tr><td><label for="randomcode">验证码：</label></td><td><input type="text" id="randomcode" name="randomcode" maxlength="4" style="width:60px;"/><img src="auth/img" alt="验证码" /></td></tr>
+						<tr><td colspan="2"><input type="submit" id="bLogin" name="bLogin" class="btn" value="登录"/><a style="margin-left:20px;" class="btn" href="app?service=page/RandomLogin&listener=initPage&return_url=">忘记密码</a></td></tr>
+					</table>
+				</form>
+			</div>
+		</div>
+	<div class="content">
+		<span>【温馨提示】</span><br />
+		<span> 1.设置为CMWAP接入点，即可免登录。<a  style="color: #548DD4;"  href="app?service=page/SetupXplain&listener=initPage">如何设置？</a></span><br />
+		<span> 2.请输入重庆移动手机号码及服务密码登录。</span><br />
+		<span> 3.如果您不记得服务密码，请点击忘记密码登录。</span><br />
+		<span> 4.输错密码会有短信提示下发至您的手机。</span>
+	</div>
+	</div>
+	</div>
+			<div class="footer">
+				<div class="copyright">
+					<p>京ICP备05002571|中国移动版权</p> 
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+</body>
+</html>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	<title>重庆掌上移动营业厅</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Cache-Control" content="no-cache" />
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"/>
+	<meta name="MobileOptimized" content="240" />
+	<meta name="Keywords" content="重庆移动,掌上营业厅,网上缴费，业务受理"/>
+	<meta name="Description" content="重庆移动,掌上营业厅,营业厅,网上缴费，业务受理"/>
+	<meta name="robots" content="index, follow"/>
+	<meta name="googlebot" content="index, follow"/>
+	<link type="text/css" rel="stylesheet" href="../CHOQ/resource/xhtmlmp/style/base.css" />
+	<link type="text/css" rel="stylesheet" href="../CHOQ/resource/xhtmlmp/style/ui.css" />
+	<script type="text/javascript" src="../CHOQ/resource/public/js/lib/jquery-1.7.2.js" ></script>
+	<script type="text/javascript" src="../CHOQ/resource/public/js/jquery.photoslider.js"></script>
+	<script type="text/javascript" src="../CHOQ/resource/xhtmlmp/js/home.js"></script>
+	<script type="text/javascript" src="../CHOQ/resource/public/js/slider.js" ></script>
+	<script type="text/javascript" src="../CHOQ/resource/public/js/ajax.js" ></script>
+	</head>
+	<body>
+
+	<div class="container">
+	<!--Page header start-->
+	<div class="header">
+		<div class="common-search">
+			<form id="searchForm" name="searchForm" action="app?service=page/help.Search&listener=initPage" method="post">
+				<input class="txt" id="searcKey" name="searchKey" type="text" value="手机上网">
+				<input id="s-btn" class="btn" type="button" value="搜 索">
+			</form>
+		</div>
+		<div class="logo"><img src="../CHOQ/resource/xhtmlmp/images/logo.gif" style="width:150px;" alt="掌上门户">&nbsp;&nbsp;重庆25℃/17℃</div>
+		<div class="menu" id="menu">
+			<p>
+				<a id="home" href="app?service=page/Home&listener=initPage">首页</a><a id="query" href="app?service=page/query&listener=initPage&floorId=1">查询</a><a id="om" href="app?service=page/operating.OperatingRoom&listener=initPage">业务</a><a id="youhui" href="app?service=page/promotions.latest&listener=initPage">优惠</a><a id="fee" href="app?service=page/directcharge.directpay&listener=initPage">交费</a>
+			</p>
+			<p>
+				<a id="mall" href="app?service=page/mobilemall.Index&listener=initPage">购机</a><a id="num" href="app?listener=initPage&service=page/numbermall.Index">选号</a><a id="download" href="app?service=page/download.SoftContent&listener=initPage">下载</a><a id="ent" href="app?service=page/ent&listener=initPage">娱乐</a><a id="help" href="app?service=page/help.Livelihood&listener=initPage">生活</a>
+			</p>
+		</div>
+	</div>
+	<!--Page header end-->
+	<div class="mainbody">
+
+	<div class="arrowbox">我的移动（<a href="app?service=page/usercenter&listener=initPage" style="color:#666;">个人信息</a>）&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="app?service=page/Home&listener=doExit" style="color:#666">退出</a></div>
+			    	    <div class="clientinfo">
+		    	    	 	<div class="fee">
+					        	<div><span style="color:#105f8c;">资费：</span><a href="app?service=page/android.selfservice.ChangeProduct&listener=initPage" class="btn btnwidth1">资费专区</a></div>
+					      	</div>
+ <div class="yuge">
+						        <div><span style="color:#105f8c;">余额：</span>41.84元<a href="app?service=page/android.directcharge.directpay&listener=initPage" class="btn btnwidth2">交费</a>&nbsp;&nbsp;&nbsp;<a href="app?service=page/feequery.BillInquiryIndex&menucode=E0040307&listener=initPage&spcode=6%E8%B4%A6%E5%8D%95%E6%9F%A5%E8%AF%A2&menuname=%E8%B4%A6%E5%8D%95%E6%9F%A5%E8%AF%A2">账单</a>&nbsp;<a href="app?service=page/querylist.ChkPass&listener=initPage">详单</a>&nbsp;<a href="app?listener=initPage&service=page/selfservice.GPRSMenu&menucode=E0040306">流量</a></div>
+						      </div>
+
+ <div class="jifen">
+						        	<div><span style="color:#105f8c;">M值：</span>114M<a href="app?service=page/android.score.PresentList&listener=initPage" class="btn btnwidth2">兑换</a>&nbsp;&nbsp;&nbsp;<a href="app?service=page/score.CallsExchange&listener=initPage">换话费</a>&nbsp;&nbsp;&nbsp;<a href="http://wap.jf.10086.cn">换礼品</a></div>
+						      </div>
+ <div class="placard" style="display:;">
+						        <ul>
+						          <li class="">[查询]&nbsp;<a href="app?service=page/custservice.PacQuery&listener=initPage">套餐余量</a>&nbsp;|&nbsp;<a href="app?service=page/selfservice.GPRSMenu&listener=initPage">流量查询</a>&nbsp;|&nbsp;<a href="app?service=page/custservice.AllSvcQuery&listener=initPage">已订业务</a></li>
+						          <li class="">[推荐]&nbsp;<a href="app?service=page/custservice.FamilyAccoutInfo&listener=initPage" style="color:#F60">家庭账户</a>&nbsp;|&nbsp;<a href="app?service=page/gprs09.Gprs09&listener=initPage">上网套餐</a>&nbsp;|&nbsp;<a href="app?service=page/download.SoftList&id=501220&listener=initPage">掌厅书签</a></li>
+						        </ul>
+						    </div>
+					    </div>	 <hr />
+	<div class="sortbar">店长推荐</div>
+						<div class="datalist">
+							<ul>
+	<li>
+<a href="http://wap.cq.10086.cn/app?service=page/nonlogin.activies.PreciseInfoActivity&amp;listener=initPage&amp;PreciseId=xinping">&#37325;&#24198;&#31227;&#21160;&#19977;&#26143;&#12289;HTC&#26032;&#21697;&#38480;&#37327;&#39318;&#21457;</a>	</li>
+	<li>
+<a href="http://wap.cq.10086.cn/app?service=page/directcharge.directpay&amp;listener=initPage">&#25484;&#21381;&#20132;&#36153;&#36865;&#35805;&#36153;&#65288;&#25903;&#20184;&#23453;&#20063;&#21487;&#20197;&#20132;&#36153;&#20102;&#21727;&#65281;&#65289;</a>	</li>
+	<li>
+<a href="http://wap.cq.10086.cn/app?service=page/nonlogin.activies.PreciseInfoActivity&amp;listener=initPage&amp;PreciseId=wuyue">&#25163;&#26426;&#27743;&#28246;&#27494;&#26519;&#22823;&#24800;5&#26376;&#38712;&#27668;&#21551;&#24149;</a>	</li>
+	</ul>
+						</div>
+
+	<div class="sortbar" id="bizmenu">优惠活动</div>
+						<div class="datalist">
+							<ul>
+	<li>
+<a href="app?service=page/activities.TelChargeGiftPkg&amp;listener=initPage">
+动感地带2013话费大礼包
+</a>	</li>
+	<li>
+<a href="app?service=page/activities.ConsonanceInfo&amp;listener=initPage">
+心有灵犀一点通
+</a>	</li>
+	<li>
+<a href="app?service=page/activities.HolidayCityPackage&amp;listener=initPage">
+动感地带市话包500分钟免费送
+</a>	</li>
+	<li>
+<a href="app?service=page/score.PresentList&amp;listener=initPage">
+积分兑换礼品区
+</a>	</li>
+	<li>
+<a href="app?service=page/activities.PreciseInfoActivity&amp;listener=initPage&amp;PreciseId=wap_1GB">
+<p><a href="http://wap.cq.10086.cn/app?listener=initPage&service=page/activities.FreeRob1GLL" target="_self">免费抢夺1GB</a></p>
+</a>	</li>
+	<li>
+<a href="app?service=page/&amp;listener=initPage">
+<p><a href="http://wap.cq.10086.cn/app?listener=initPage&service=page/activities.BoutiqueSoft" target="_self">下精品软件，赢Note2手机</a></p>
+</a>	</li>
+	<li>
+<a href="app?service=page/&amp;listener=initPage">
+<p><a href="http://wap.cq.10086.cn/app?service=page/activities.CampusSpring&listener=initPage" target="_self">为“校园之春”明星投票<br /></a></p>
+</a>	</li>
+	<li>
+<a href="app?service=page/activities.PreciseInfoActivity&amp;listener=initPage&amp;PreciseId=pay">
+<p><a title="掌厅支付宝交话费" href="http://wap.cq.10086.cn/app?service=page/directcharge.directpay&listener=initPage" target="_self">掌厅支付宝交话费</a></p>
+</a>	</li>
+	</ul>
+						</div>
+						<div class="more2"><a href="app?service=page/promotions.latest&listener=initPage">更多优惠>></a></div>
+	<div class="tags" id="f1">
+						<a class="selectedTag" href="javascript:function(){return false;}">1F 业务</a><a href="app?service=page/operating.OperatingRoom&listener=moreBiz&floorId=2">上网</a><a href="app?service=page/operating.OperatingRoom&listener=moreBiz&floorId=4">通话</a><a href="app?service=page/operating.OperatingRoom&listener=moreBiz&floorId=5">短彩信</a>
+					</div>					
+					<div class="floor" id="f1_tag1">
+					    <div class="datalist">
+					      <ul>
+	<li>
+
+<a href="app?service=page/custservice.FamilyVGroup&amp;listener=initPage">&#23478;&#24237;&#30701;&#21495;1&#20998;&#38065;/&#20998;&#38047;</a>
+
+	</li>
+	<li>
+
+<a href="app?service=page/mobilegroup.Smallgroup&amp;listener=initPage">&#21152;&#20837;&#20065;&#38899;&#32593;8&#20998;&#38065;/&#20998;&#38047;</a>
+
+	</li>
+	<li>
+
+<a href="app?service=page/discount.NetPackage&amp;listener=initPage">&#25163;&#26426;&#19978;&#32593;&#21152;&#27833;&#21253;[&#26032;]</a>
+
+	</li>
+ </ul>
+					    </div>
+				  	</div>
+				  	<div class="more2"><a href="app?service=page/operating.OperatingRoom&listener=initPage">更多业务>></a></div>
+				  	<div class="tags" id="f2">
+				  		<a class="selectedTag" href="javascript:function(){return false;}">2F 软件</a><a href="app?service=page/ent&listener=showTopicSoftware&floor=2F20">排行榜</a><a href="app?service=page/ent&listener=showTopicSoftware&floor=2F30">分类</a><a href="app?service=page/download.SoftKindSearch&type_id=10&listener=initPage" >必备</a>
+				  	</div>
+				  	<div class="floor" id="f2_tag1" style="">
+					    <div class="datalist">
+					      <ul>
+	<li>
+
+<a href="app?service=page/download.SoftList&amp;id=501220&amp;listener=initPage">&#25484;&#19978;&#33829;&#19994;&#21381;&#24555;&#25463;&#20070;&#31614;</a>
+
+	</li>
+	<li>
+
+<a href="app?service=page/download.SoftList&amp;id=207150&amp;listener=initPage">&#26032;&#28010;&#24494;&#21338;G3&#29256;</a>
+
+	</li>
+	<li>
+
+<a href="app?service=page/download.SoftList&amp;id=207030&amp;listener=initPage">&#25163;&#26426;&#38405;&#35835;</a>
+
+	</li>
+ </ul>
+					    </div>
+				  	</div> 
+  					<div class="more2"><a href="app?service=page/download.SoftContent&listener=initPage">更多软件>></a></div>
+  					<div class="tags" id="f3">
+  						<a class="selectedTag" href="javascript:function(){return false;}">3F 阅读</a><a href="http://wap.cmread.com/iread/wml/p/huiyuanph.jsp;jsessionid=C567CBDC23242D4851A08B1AFE3D487F?purl=%2Firead%2Fwml%2Fp%2Fhyfz.jsp%3Bjsessionid%3DC567CBDC23242D4851A08B1AFE3D487F&pg=117685&lab=477415&layout=2">排行榜</a><a href="http://wap.cmread.com/iread/wml/p/qgblyueduhui.jsp;jsessionid=C567CBDC23242D4851A08B1AFE3D487F?nid=377856931&pg=116820&lab=456998">情感</a><a href="http://wap.cmread.com/iread/wml/p/caxyyueduhui.jsp;jsessionid=C567CBDC23242D4851A08B1AFE3D487F?nid=377856926&pg=116820&lab=457003">纯爱</a>
+					</div>				  	
+  					<div class="floor" id="f3_tag1">
+					    <div class="datalist">
+					      <ul>
+	<li>
+
+
+<a href="http://wap.cmread.com/iread/wml/l/viewbook.jsp;jsessionid=AD4E9C2D70AB933C8242B6B7D2274D5D?bid=377846329&amp;nid=358953709&amp;pg=112022&amp;lab=388057">&#29305;&#25112;&#31070;&#21307;</a>
+	</li>
+	<li>
+
+
+<a href="http://wap.cmread.com/iread/wml/l/viewbook.jsp;jsessionid=AD4E9C2D70AB933C8242B6B7D2274D5D?bid=370285395&amp;nid=-11&amp;pg=11640&amp;lab=10179">&#22307;&#29579;</a>
+	</li>
+	<li>
+
+
+<a href="http://wap.cmread.com/iread/wml/l/viewbook.jsp;jsessionid=AD4E9C2D70AB933C8242B6B7D2274D5D?nid=-20&amp;bid=374298228&amp;pg=108804&amp;lab=283616">&#22320;&#29699;&#28216;&#25103;&#22330;</a>
+	</li>
+ </ul>
+					    </div>
+				  	</div>
+				  	<div class="more2"><a href="http://read.10086.cn">更多图书&gt;&gt;</a></div>
+  					<!--4F-->
+				  	<div class="tags" id="f4">
+				  		<a class="selectedTag" href="javascript:function(){return false;}">4F 购机</a><a href="app?service=page/mobilemall.List&listener=initPage&police=245631">智能机</a><a href="app?service=page/mobilemall.List&listener=initPage&police=246170">家庭产品</a><a href="app?service=page/mobilemall.List&listener=initPage&police=552397">积分兑换</a>
+				  	</div>
+				  	<div class="mall" id="f4_tag1">
+					    <div class="block">
+					      <div class="packimg"><a href="app?listener=initPage&service=page/mobilemall.Detail&title=productSummery&productid=14492&police=245631"><img src="../CHOQ/resource/touch/images/mall/products/7568.jpg" /></a> </div>
+					      <div class="products">
+					        <div class="productname"> <a href="app?listener=initPage&service=page/mobilemall.Detail&title=productSummery&productid=14492&police=245631">三星S7568（直降311元）</a> </div>
+					        <p>S3风格的时尚外观设计，4.0英寸屏幕</p>
+					        <p>原     价:<span style="color:#F30;">1399元</span></p>
+					        <p>五月专享特惠价:<span style="color:#F30;">888元</span></p>
+					        <p>最高送888元话费</p>
+					      </div>
+					    </div>
+					    <div class="block">
+					      <div class="packimg"><a href="app?listener=initPage&service=page/mobilemall.Detail&title=productSummery&productid=16184&police=245631"><img src="../CHOQ/resource/touch/images/mall/products/i9128.jpg" /></a> </div>
+					      <div class="products">
+					        <div class="productname"> <a href="app?listener=initPage&service=page/mobilemall.Detail&title=productSummery&productid=16184&police=245631">三星I9128（直降311元）</a> </div>
+					        <p>5.0英寸大屏，1.2GHz双核处理器</p>
+					        <p>原     价:<span style="color:#F30;">2699元</span></p>
+					        <p>五月专享特惠价:<span style="color:#F30;">2388元</span></p>
+					        <p>最高送2388元话费</p>
+					      </div>
+					    </div>
+				  	</div>s
+				    <div class="more2"><a href="app?service=page/mobilemall.Index&listener=initPage">更多手机&gt;&gt;</a></div>
+  				  	<!--5F-->
+					<div class="tags">
+						<a class="selectedTag" href="javascript:function(){return false;}">5F 选号</a>
+				    </div>
+  				    <div style="margin:10px 0px;">
+				    	<table class="ctable">
+	<tr>
+				    				<td>13628267631</td>
+				    				<td>预存话费100元</td>
+				    				<td><a href="app?service=page/numbermall.Index&amp;listener=show&amp;tel=13628267631&amp;area=null&amp;segment=null&amp;fee=null&amp;like=null">订购</a></td>
+				    			</tr>
+	<tr>
+				    				<td>13628267935</td>
+				    				<td>预存话费100元</td>
+				    				<td><a href="app?service=page/numbermall.Index&amp;listener=show&amp;tel=13628267935&amp;area=null&amp;segment=null&amp;fee=null&amp;like=null">订购</a></td>
+				    			</tr>
+	<tr>
+				    				<td>13628268375</td>
+				    				<td>预存话费100元</td>
+				    				<td><a href="app?service=page/numbermall.Index&amp;listener=show&amp;tel=13628268375&amp;area=null&amp;segment=null&amp;fee=null&amp;like=null">订购</a></td>
+				    			</tr>
+	<tr>
+				    				<td>13628269385</td>
+				    				<td>预存话费100元</td>
+				    				<td><a href="app?service=page/numbermall.Index&amp;listener=show&amp;tel=13628269385&amp;area=null&amp;segment=null&amp;fee=null&amp;like=null">订购</a></td>
+				    			</tr>
+	<tr>
+				    				<td>13628269670</td>
+				    				<td>预存话费100元</td>
+				    				<td><a href="app?service=page/numbermall.Index&amp;listener=show&amp;tel=13628269670&amp;area=null&amp;segment=null&amp;fee=null&amp;like=null">订购</a></td>
+				    			</tr>
+	<tr>
+				    				<td>13628270952</td>
+				    				<td>预存话费100元</td>
+				    				<td><a href="app?service=page/numbermall.Index&amp;listener=show&amp;tel=13628270952&amp;area=null&amp;segment=null&amp;fee=null&amp;like=null">订购</a></td>
+				    			</tr>
+	</table>				     
+				    </div>
+				    <div class="more2"><a href="app?service=page/numbermall.Index&listener=initPage">更多靓号&gt;&gt;</a></div>
+ <div class="self_sell"> <span style="color:#FF6600;">尊敬的孔令建，特为您量身推荐：</span><br/><a  href=http://wap.cq.10086.cn/app?listener=initPage&service=page/score.CallsExchange>积分兑换火热进行中，100积分换1元话费，点击查看=></a><br /></div> </div>
+	<!--Page footer start-->
+	<div class="footer">
+		<div class="recommand">
+			<div class="column_title">好友推荐</div>
+			<div class="recom">
+	<form id="recommandForm" method="post" action="app?service=page/custservice.FriendRecommendAlert&listener=initPage&pageName=Home&pageurl=http://wap.cq.10086.cn/app?service=page/Home&listener=initPage">
+					<p>
+						<input id="push" name="checkradio" type="radio" value="1" checked="checked" />
+						<label for="push">PUSH下发</label>
+						<input id="sms" name="checkradio" type="radio" value="2" />
+						<label for="sms">短信下发</label>
+					</p>
+					<p>
+						<label for="friendTel">好友号码：</label>
+						<input id="friendTel" name="friendTel" type="text" class="txt"/>
+						<input type="submit" value="推荐" class="btn" />
+					</p>
+				</form>
+			</div>
+		</div>
+		<div class="sh">
+			<div class="column_title">业务搜索</div>
+			 <div class="searchbox">
+				<form method="post" action="app?service=page/help.Search&listener=initPage">
+					<p>
+						<label for="searchKey">输入内容：</label>
+						<input id="searchKey" name="searchKey" type="text" class="txt"/>
+						<input type="submit" value="搜索" class="btn" />
+					</p>
+				</form>
+			</div>
+		</div>
+		<div class="copyright">
+					<p>本月累计登录客户数:311889</p>
+					<p>掌厅所有页面的PV量:1010434</p>
+			<p><a href="/app?service=page/simple.Home&listener=initPage&v=SIMPLE">简版</a>&nbsp;|&nbsp;<a href="javascript:function(){return false;}">彩版</a>&nbsp;|&nbsp;<a href="app?service=page/Home&listener=initPage&v=TOUCH">触屏版</a></p>
+			<p><a href="app?service=page/Bookmark&listener=initPage&v=COLOR">书签</a>&nbsp;|&nbsp;<a href="app?service=page/help.ViewAlert&amp;listener=initPage&v=COLOR">服务与支持</a>&nbsp;|&nbsp;<a href="http://wap.monternet.com/">移动梦网</a> | <a HREF="app?service=page/activities.ActivitiesNotice&pageParam=150&listener=initPage">联系我们</a></p>			<p>京ICP备05002571&nbsp;|&nbsp;中国移动版权</p>
+		</div>
+	</div>
+	<!--Page footer end-->
+	</div>
+	</body>
+</html>
+
+
